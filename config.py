@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("mongodb+srv://xemajes377:ciyelupa22@cluster0.7ar99ue.mong
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1001724957061" None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 778337499))
+OWNER_ID = int(getenv("778337499", 778337499))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://https://t.me/moon_in_the_day_film")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nongsdisni")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("AQExwWMANtZK4rzDTa5AGTSm6LD4OCxnzA8VtfgEI_jenVF3DTCLs7zWyy_ArNY8BrhxPdQSdil0nC0Jg5sxFbxqiYeG0o7GDHJt_scNJLmAlUIjJoC20fLOHmT0LhE95FYiJUyJ6WvOPpSWrWcL2Wrya26iZaKy0SXQTa6Xg7wu-Y15weOTie6M8HsWHzaSJzUcuO8bnA4JMX9aY-zQIkNWzra0htlc4saLLBsZdiqncq_4TsveUmRxIN3eBsmGsXZ2OaqzoBLYOymRQf_WSFk7tP544eLaF8GL7O87rwvjjUTCD5DG3LNyHcyK2qmed1DPbqCuYhY24D9umcCmOXqR8xEuHgAAAAGCSpp2AA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/929db6105613abc7e2d46.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/929db6105613abc7e2d46.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/929db6105613abc7e2d46.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/929db6105613abc7e2d46.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
